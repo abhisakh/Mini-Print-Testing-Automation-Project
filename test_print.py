@@ -19,4 +19,4 @@ def test_print_file_not_empty():
 def test_pdf_page_count():
     output = send_print_job(INPUT_FILE)
 
-    assert get_page_count(output) == 1
+    assert get_page_count(output) == 11

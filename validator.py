@@ -1,5 +1,5 @@
 import os
-from PyPDF2 import PdfReader
+from pypdf import PdfReader
 
 def file_exists(file_path):
     return os.path.exists(file_path)
