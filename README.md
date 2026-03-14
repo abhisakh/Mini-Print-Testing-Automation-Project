@@ -16,6 +16,16 @@ This simulates automated regression testing for print pipelines.
 
 ---
 
+## Significance
+
+- ✔ automated regression testing
+- ✔ document layout validation
+- ✔ Python automation
+- ✔ pytest testing pipeline
+- ✔ image comparison testing
+
+---
+
 ## 1️⃣ Project Structure
 
 Folder structure:
@@ -82,7 +92,7 @@ This script automate the pytest
 
 ---
 
-## 5️⃣ Install Requirements
+## 6️⃣ Install Requirements
 
 System Dependencies
 ```python
@@ -110,7 +120,7 @@ pip install -r requirements.txt
 ```
 ---
 
-## 6️⃣ Run Tests
+## 7️⃣ Run Tests
 
 Run:
 ```python
@@ -125,14 +135,6 @@ test_print.py::test_visual_layout PASSED
 ```
 
 ---
-
-## 7️⃣ Significance
-
-- ✔ automated regression testing
-- ✔ document layout validation
-- ✔ Python automation
-- ✔ pytest testing pipeline
-- ✔ image comparison testing
 
 
 
