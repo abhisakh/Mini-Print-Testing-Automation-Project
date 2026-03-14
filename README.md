@@ -135,7 +135,11 @@ test_print.py::test_visual_layout PASSED
 ```
 
 ---
-
+NOTE: To generate the html file for the report
+```python
+pytest --html=Pytest-Report-Print-Testing-Automation.html
+```
+---
 
 
 
