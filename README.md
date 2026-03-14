@@ -16,17 +16,7 @@ This simulates automated regression testing for print pipelines.
 ## 1️⃣ Project Structure
 
 Folder structure:
-```python
-print-testing-automation/
-│
-├── printer.py
-├── validator.py
-├── test_print.py
-├── sample_files/
-│      test_document.pdf
-│
-└── requirements.txt
-```
+
 ```python
 .
 │
