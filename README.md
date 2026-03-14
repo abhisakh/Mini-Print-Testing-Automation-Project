@@ -92,10 +92,10 @@ test_print.py::test_pdf_page_count PASSED
 
 ## 7️⃣ Significance
 
-✔ simulate print workflows
-✔ automate validation using pytest
-✔ verify print output files
-✔ build automated regression tests
+- ✔ simulate print workflows
+- ✔ automate validation using pytest
+- ✔ verify print output files
+- ✔ build automated regression tests
 
 
 
