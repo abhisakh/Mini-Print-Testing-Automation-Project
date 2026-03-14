@@ -104,6 +104,7 @@ Example Output:
 test_print.py::test_print_job PASSED
 test_print.py::test_print_file_not_empty PASSED
 test_print.py::test_pdf_page_count PASSED
+test_print.py::test_visual_layout PASSED
 ```
 
 ---
