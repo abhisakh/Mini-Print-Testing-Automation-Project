@@ -23,13 +23,13 @@ This simulates automated regression testing for print pipelines.
 
 ---
 
-## Significance
+## Key Features
 
-- ✔ automated regression testing
-- ✔ document layout validation
-- ✔ Python automation
-- ✔ pytest testing pipeline
-- ✔ image comparison testing
+- Automated regression testing for print pipelines
+- Validation of generated output files
+- Document integrity verification
+- Visual regression testing for layout changes
+- Pytest-based automated testing framework
 
 ---
 
@@ -37,7 +37,7 @@ This simulates automated regression testing for print pipelines.
 
 Folder structure:
 
-```python
+```text
 .
 │
 ├── printer.py
