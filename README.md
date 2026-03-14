@@ -158,10 +158,8 @@ pytest --html=Pytest-Report-Print-Testing-Automation.html
 ```
 ---
 
-### 8️⃣ **Real-World Use Case Section (Very Important)**
+## 8️⃣ **Real-World Use Case Section (Very Important)**
  **industry QA work**.
-
-## Real-World Application
 
 This framework simulates automated validation workflows used in software testing for:
 
