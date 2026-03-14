@@ -137,24 +137,40 @@ Run:
 pytest test_print.py -v
 ```
 Example Output:
-```python
+```bash
+$ pytest test_print.py -v
+
 test_print.py::test_print_job PASSED
 test_print.py::test_print_file_not_empty PASSED
 test_print.py::test_pdf_page_count PASSED
 test_print.py::test_visual_layout PASSED
+
+================ 4 passed in 0.05s =================
 ```
 
 ---
-NOTE: To generate the html file for the report
-```python
+## HTML Test Report
+
+Generate a detailed HTML test report:
+
+```bash
 pytest --html=Pytest-Report-Print-Testing-Automation.html
-```
+
 ---
 
+### 8️⃣ **Real-World Use Case Section (Very Important)**
+ **industry QA work**.
 
+## Real-World Application
 
+This framework simulates automated validation workflows used in software testing for:
 
+- Printer driver validation
+- Digital print pipeline testing
+- Automated regression testing of document rendering systems
+- Continuous integration testing environments
 
+---
 
 
 
