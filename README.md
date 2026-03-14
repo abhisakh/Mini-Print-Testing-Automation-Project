@@ -42,14 +42,66 @@ In real systems this could be:
 
 ---
 
-3️⃣ Output Validation Script
+## 3️⃣ Output Validation Script
 
-validator.py
+<mark>validator.py</mark>
 
 This script checks:
 - file exists
 - file is not empty
 - correct page count
+
+---
+
+## 4️⃣ Pytest Test Suite
+
+<mark>test_print.py</mark>
+
+This script automate the pytest
+
+---
+
+## 5️⃣ Install Requirements
+
+<mark>requirements.txt</mark>
+```python
+pytest
+PyPDF2
+```
+Install
+
+```python
+pip install -r requirements.txt
+```
+---
+
+## 6️⃣ Run Tests
+
+Run:
+```python
+pytest test_print.py -v
+```
+Example Output:
+```python
+test_print.py::test_print_job PASSED
+test_print.py::test_print_file_not_empty PASSED
+test_print.py::test_pdf_page_count PASSED
+```
+
+---
+
+## 7️⃣ Significance
+
+✔ simulate print workflows
+✔ automate validation using pytest
+✔ verify print output files
+✔ build automated regression tests
+
+
+
+
+
+
 
 
 
