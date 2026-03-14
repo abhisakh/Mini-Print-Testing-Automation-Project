@@ -2,7 +2,12 @@
 # 🖨️ Mini-Print-Testing-Automation-Project
 ![alt text](<assets/Screenshot 2026-03-15 at 00.01.12.png>)
 
-A Python-based automation framework using Pytest to simulate print jobs and validate generated output files. Implemented automated checks for file creation, content integrity, and document properties, supporting regression testing of print workflows.
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Pytest](https://img.shields.io/badge/Pytest-Testing-green)
+![Automation](https://img.shields.io/badge/QA-Automation-orange)
+
+A Python-based automation framework using **Pytest** to simulate print jobs and validate generated output files.  
+The framework performs automated validation of printed documents including file generation, document integrity, and visual layout comparison.
 
 ## Project Idea
 Automatically:
