@@ -81,6 +81,20 @@ This script automate the pytest
 
 ## 5️⃣ Install Requirements
 
+System Dependencies
+```python
+This project requires Poppler for PDF image conversion.
+
+Mac:
+brew install poppler
+
+Ubuntu:
+sudo apt install poppler-utils
+
+Windows:
+Download Poppler from:
+https://github.com/oschwartz10612/poppler-windows/releases
+```
 <mark>requirements.txt</mark>
 ```python
 pytest
