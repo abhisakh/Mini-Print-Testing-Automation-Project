@@ -1,6 +1,6 @@
 
 # 🖨️ Mini-Print-Testing-Automation-Project
-![alt text](<Screenshot 2026-03-15 at 00.01.12.png>)
+![alt text](<assets/Screenshot 2026-03-15 at 00.01.12.png>)
 
 A Python-based automation framework using Pytest to simulate print jobs and validate generated output files. Implemented automated checks for file creation, content integrity, and document properties, supporting regression testing of print workflows.
 
