@@ -67,7 +67,7 @@ This script automate the pytest
 <mark>requirements.txt</mark>
 ```python
 pytest
-PyPDF2
+pypdf
 ```
 Install
 
