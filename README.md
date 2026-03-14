@@ -78,9 +78,9 @@ This script checks:
 
 <mark>visual_compare.py</mark>
 
-1️. Converts PDFs → images
-2️. Compares pixel differences
-3️. Returns False if layout changed
+- 1️. Converts PDFs → images
+- 2️. Compares pixel differences
+- 3️. Returns False if layout changed
 
 ---
 
