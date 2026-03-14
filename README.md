@@ -110,8 +110,11 @@ https://github.com/oschwartz10612/poppler-windows/releases
 ```
 <mark>requirements.txt</mark>
 ```python
-pytest
-pypdf
+pytest>=8.0
+pypdf>=4.0
+pdf2image>=1.17
+pillow>=10.0
+pytest-html
 ```
 Install
 
