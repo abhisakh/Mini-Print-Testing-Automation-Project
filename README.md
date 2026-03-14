@@ -155,7 +155,7 @@ Generate a detailed HTML test report:
 
 ```bash
 pytest --html=Pytest-Report-Print-Testing-Automation.html
-
+```
 ---
 
 ### 8️⃣ **Real-World Use Case Section (Very Important)**
