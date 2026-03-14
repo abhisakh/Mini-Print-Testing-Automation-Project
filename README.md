@@ -27,6 +27,23 @@ print-testing-automation/
 │
 └── requirements.txt
 ```
+```python
+.
+│
+├── printer.py
+├── validator.py
+├── visual_compare.py
+├── test_print.py
+│
+├── reference_output/
+│     expected_output.pdf
+│
+├── printed_output/
+│
+└── sample_files/
+      test_document.pdf
+```
+
 ---
 
 ## 2️⃣ Printer Script
@@ -54,7 +71,17 @@ This script checks:
 
 ---
 
-## 4️⃣ Pytest Test Suite
+## 4️⃣ Visual Comparison Script
+
+<mark>visual_compare.py</mark>
+
+1️. Converts PDFs → images
+2️. Compares pixel differences
+3️. Returns False if layout changed
+
+---
+
+## 5️⃣ Pytest Test Suite
 
 <mark>test_print.py</mark>
 
