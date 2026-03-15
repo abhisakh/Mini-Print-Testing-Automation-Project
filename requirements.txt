@@ -3,3 +3,4 @@ pypdf>=4.0
 pdf2image>=1.17
 pillow>=10.0
 pytest-html
+flask

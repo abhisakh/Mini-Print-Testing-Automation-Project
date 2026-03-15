@@ -27,8 +27,14 @@ jobs:
       - name: Run pytest
         run: pytest -v --html=report.html --self-contained-html
 
+      - name: Start Flask API
+       run: python api.py &
+      - name: Run API Tests
+       run: pytest test_api.py
+
       - name: Upload pytest report
         uses: actions/upload-artifact@v4
         with:
           name: pytest-report
           path: report.html
+
