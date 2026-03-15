@@ -7,7 +7,7 @@
 
 ![alt text](<assets/Screenshot 2026-03-15 at 00.01.12.png>)
 
-*Python • Pytest • QA Automation • GitHub Actions CI/CD*
+*Python • Pytest • QA Automation • GitHub Actions CI/CD • Functional Test • Unit Test • Visual Regression Test • API Test*
 
 ---
 
