@@ -259,7 +259,7 @@ pytest --html=Pytest-Report-Print-Testing-Automation.html
 ```
 After running tests, an HTML report is generated:
 
-## -------------------- OR ---------------------------------------
+## --------------------------------------- OR ---------------------------------------
 
 #### j. Auto Generate the Test Report (auto pytest + html report)
 Run
