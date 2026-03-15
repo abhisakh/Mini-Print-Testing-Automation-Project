@@ -3,16 +3,11 @@ name: Print Testing Automation CI
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
   workflow_dispatch:
 
 jobs:
   run-tests:
     runs-on: ubuntu-latest
-
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout Repository
@@ -30,4 +25,10 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run pytest
-        run: pytest -v
+        run: pytest -v --html=report.html --self-contained-html
+
+      - name: Upload pytest report
+        uses: actions/upload-artifact@v4
+        with:
+          name: pytest-report
+          path: report.html
