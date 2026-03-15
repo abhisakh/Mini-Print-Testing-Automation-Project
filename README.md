@@ -269,7 +269,7 @@ python3 run_tests.py
 
 ---
 
-## 7️⃣ **Real-World Use Case Section (Very Important)**
+## 8️⃣ **Real-World Use Case Section (Very Important)**
  **industry QA work**.
 
 This framework simulates automated validation workflows used in software testing for:
