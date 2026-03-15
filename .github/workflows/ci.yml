@@ -24,17 +24,19 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Run pytest
-        run: pytest -v --html=report.html --self-contained-html
+      - name: Run Pytest for Print Simulation
+        run: pytest test_print.py -v --html=report.html --self-contained-html
 
       - name: Start Flask API
-        run: python api.py &
-      - name: Run API Tests
-        run: pytest test_api.py
+        run: |
+          nohup python api.py &
+          sleep 5
 
-      - name: Upload pytest report
+      - name: Run API Tests
+        run: pytest test_api.py -v
+
+      - name: Upload Pytest report
         uses: actions/upload-artifact@v4
         with:
           name: pytest-report
           path: report.html
-
