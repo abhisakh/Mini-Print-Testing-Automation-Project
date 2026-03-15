@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![Pytest](https://img.shields.io/badge/Pytest-Testing-green)
 ![Automation](https://img.shields.io/badge/QA-Automation-orange)
-![CI](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/abhisakh/Mini-Print-Testing-Automation-Project/actions/workflows/ci.yml/badge.svg)
 
 ![alt text](<assets/Screenshot 2026-03-15 at 00.01.12.png>)
 
