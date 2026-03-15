@@ -5,8 +5,8 @@
 ![Pytest](https://img.shields.io/badge/Pytest-Testing-green)
 ![Automation](https://img.shields.io/badge/QA-Automation-orange)
 
-![Print Tests](https://github.com/abhisakh/Mini-Print-Testing-Automation-Project/actions/workflows/ci.yml/badge.svg?label=Print%20Tests&job=print-tests)
-![API Tests](https://github.com/abhisakh/Mini-Print-Testing-Automation-Project/actions/workflows/ci.yml/badge.svg?label=API%20Tests&job=api-tests)
+![CI Workflow](https://github.com/abhisakh/Mini-Print-Testing-Automation-Project/actions/workflows/ci.yml/badge.svg)
+*Includes Print & API tests*
 
 ![alt text](<assets/Screenshot 2026-03-15 at 00.01.12.png>)
 
