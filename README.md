@@ -83,7 +83,7 @@ project-root/
 │  
 └── .github
      └── workflows
-          └── ci.yml
+          └── ci.yml →  GitHub Actions workflow that runs automated tests on each push.
    
 ```
 
