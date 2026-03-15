@@ -35,8 +35,8 @@ jobs:
       - name: Run API Tests
         run: pytest test_api.py -v
 
-      - name: Upload Pytest report
+      - name: Upload pytest report
         uses: actions/upload-artifact@v4
         with:
-          name: pytest-report
-          path: report.html
+            name: pytest-report.html
+            path: report.html
