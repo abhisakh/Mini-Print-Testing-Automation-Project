@@ -22,6 +22,20 @@ Automatically:
 
 This simulates automated regression testing for print pipelines.
 
+NOTE: Automated tests run on every commit using GitHub Actions.
+The pipeline generates a detailed HTML test report that can be downloaded from the workflow artifacts.
+
+### Github CI pipeline:
+```bash
+push code
+   ↓
+GitHub runs tests
+   ↓
+generates HTML report
+   ↓
+uploads report
+```
+
 ---
 
 ## Key Features
