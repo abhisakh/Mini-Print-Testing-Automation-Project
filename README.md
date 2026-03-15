@@ -158,9 +158,82 @@ pip install -r requirements.txt
 ```
 ---
 
-## 7️⃣ Run Tests
+## 7️⃣ To Run New Tests
 
-Run:
+### 1. Clone or Download the Project
+```python
+git clone <repository-url>
+cd <project-folder>
+```
+If you already have it locally, just move into the folder:
+```python
+cd project-root
+```
+### 2. Create a Virtual Environment (Recommended)
+```python
+python3 -m venv .venv
+source .venv/bin/activate
+```
+### 3. Refer to Install Requirement section
+
+### 4. Check or Modify Required Files
+#### a. <mark>📄 sample_files/test_document.pdf</mark>
+➡ Replace this file if you want to test with another input document.
+```python
+sample_files/
+└── test_document.pdf
+```
+#### b. <mark>📄 reference_output/expected_output.pdf</mark>
+➡ Replace this file if the expected output PDF changes.
+```python
+reference_output/
+└── expected_output.pdf
+```
+This file is used by <mark>visual_compare.py</mark> to verify results.
+
+#### c. <mark>📄 printer.py</mark>
+➡ Modify this if:
+- Printing logic changes
+- Output format changes
+
+==> File paths need updates
+This script generates the output PDF.
+
+#### d. <mark>📄 validator.py</mark>
+➡ Modify this if:
+- Validation logic changes
+- New checks are required
+- Output format changes
+
+This file checks whether the generated output is valid.
+
+#### e. <mark>📄 visual_compare.py</mark>
+➡ Modify this if:
+- The method for comparing PDFs changes
+- You want to add image/PDF comparison logic.
+It compares:
+```python
+printed_output/output.pdf
+vs
+reference_output/expected_output.pdf
+```
+
+#### f. <mark>📄 test_print.py</mark>
+➡ Modify this if:
+- New test cases are added
+- Test inputs change
+- Validation logic changes
+
+***This is the main test file executed by pytest.***
+
+#### g. <mark>📄 run_tests.py</mark>
+➡ Optional wrapper script to run all tests automatically.
+You can modify it if:
+- You want custom test execution
+- You want automated report generation.
+
+
+#### h. Run the Automated Tests (Only pytest)
 ```python
 pytest test_print.py -v
 ```
@@ -177,16 +250,26 @@ test_print.py::test_visual_layout PASSED
 ```
 
 ---
-## HTML Test Report
+#### i. Generate the Test Report (pytest + html report)
 
 Generate a detailed HTML test report:
 
 ```bash
 pytest --html=Pytest-Report-Print-Testing-Automation.html
 ```
+After running tests, an HTML report is generated:
+
+## -------------------- OR ---------------------------------------
+
+#### j. Auto Generate the Test Report (auto pytest + html report)
+Run
+```bash
+python3 run_tests.py 
+```
+
 ---
 
-## 8️⃣ **Real-World Use Case Section (Very Important)**
+## 7️⃣ **Real-World Use Case Section (Very Important)**
  **industry QA work**.
 
 This framework simulates automated validation workflows used in software testing for:
