@@ -60,6 +60,7 @@
   - [h. api.py](#h-apipy)
   - [i. run\_tests.py](#i-run_testspy)
 - [Real-World Use Cases](#real-world-use-cases)
+- [Future Roadmap: Jira Integration](#future-roadmap)
 
 ---
 
@@ -808,5 +809,19 @@ This framework simulates automated validation workflows used in industry QA and 
 - Automated regression testing of document rendering systems
 - API testing for document print job submission
 - Continuous Integration support for QA teams
+
+[↑ Back to Contents](#table-of-contents)
+
+---
+<a id="future-roadmap"></a>
+## 🚀 Future Roadmap: Jira Integration
+
+Jira Integration for Automated Defect Reporting
+To align with professional Agile workflows, this project is designed to integrate with the Jira Cloud API. This allows for:
+
+- Automated Ticket Creation: If a regression test (like test_visual_layout) fails, a Jira issue is automatically created with the full error trace.
+- Traceability: Mapping Pytest Test IDs to Jira User Stories to ensure all software functional specifications are validated.
+- Status Updates: Automatically transitioning Jira tickets from "In Progress" to "Done" when a previously failing test passes in the CI/CD pipeline.
+
 
 [↑ Back to Contents](#table-of-contents)
